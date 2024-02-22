@@ -24,4 +24,8 @@ describe("FizzBuzz", () => {
   it("Deberia generar la cadena BUZZ para un numero multiplo de 5 ej. num 15, 5, 10 => Buzz", () => {
     expect(generarFizzBuzz(20)).toEqual("Buzz");
   });
+
+  it("Deberia generar la cadena FIZZBUZZ para un numero multiplo de 5 y 3 ej. num 15, 30 => FizzBuzz", () => {
+    expect(generarFizzBuzz(30)).toEqual("FizzBuzz");
+  });
 });
