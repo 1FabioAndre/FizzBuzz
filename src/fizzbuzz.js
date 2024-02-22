@@ -1,12 +1,14 @@
 function generarFizzBuzz(n){
-    if(n % 3 == 0 && n % 5 == 0){
+    let FIZZ = 3;
+    let BUZZ = 5;
+    if(n % FIZZ == 0 && n % BUZZ == 0){
         return "FizzBuzz"
     }
     else{
-        if(n % 3 == 0){
+        if(n % FIZZ == 0){
             return "Fizz";
         }
-        if(n % 5 == 0){
+        if(n % BUZZ == 0){
             return "Buzz";
         }
         return n;
