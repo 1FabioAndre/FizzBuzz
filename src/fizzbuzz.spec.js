@@ -10,7 +10,10 @@ describe("FizzBuzz", () => {
   });
 
   it("Deberia generar la cadena FIZZ para un numero que tiene esa regla MULTIPLO DE 3 Ej. num 3 => Fizz", () => {
-    expect(generarFizzBuzz(6)).toEqual("Fizz");
+    expect(generarFizzBuzz(3)).toEqual("Fizz");
   });
 
+  it("Deberia generar la cadena BUZZ para el numero 5 ej. num 5 => 5", () => {
+    expect(generarFizzBuzz(5)).toEqual("Buzz");
+  });
 });
