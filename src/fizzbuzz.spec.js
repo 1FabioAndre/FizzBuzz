@@ -13,7 +13,11 @@ describe("FizzBuzz", () => {
     expect(generarFizzBuzz(3)).toEqual("Fizz");
   });
 
-  it("Deberia generar la cadena BUZZ para el numero 5 ej. num 5 => 5", () => {
+  it("Deberia generar la cadena BUZZ para el numero 5 ej. num 5 => Buzz", () => {
     expect(generarFizzBuzz(5)).toEqual("Buzz");
+  });
+
+  it("Deberia generar la cadena BUZZ para el numero 5 ej. num 10 => Buzz", () => {
+    expect(generarFizzBuzz(10)).toEqual("Buzz");
   });
 });
